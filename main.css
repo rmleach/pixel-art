@@ -1,0 +1,38 @@
+.header {
+    background-color: aqua;
+}
+
+.main {
+    width: 50em;
+    height: 50em;
+    border: 1px solid black;
+}
+
+.footer {
+    background-color: burlywood;
+}
+
+.red{
+    background-color: red;
+    width: 2em;
+    height: 2em;
+    border: 1px solid black;
+}
+.yellow{
+    background-color: yellow;
+    width: 2em;
+    height: 2em;
+    border: 1px solid black;
+}
+.green{
+    background-color: green;
+    width: 2em;
+    height: 2em;
+    border: 1px solid black;
+}
+.blue{
+    background-color: blue;
+    width: 2em;
+    height: 2em;
+    border: 1px solid black;
+}
