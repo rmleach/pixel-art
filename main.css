@@ -1,38 +1,61 @@
 .header {
     background-color: aqua;
+    height: 10vh;
 }
 
 .main {
-    width: 50em;
-    height: 50em;
-    border: 1px solid black;
+    display: table;
+    border-spacing: 1px;
+    height: 80vh;
+    background-color: black;
+    border: 5px solid black;
+}
+
+.canvas{
+    display: table-row;
+}
+
+.pixel {
+    display: table-cell;
+    background-color: white;
+    width: 40px;
+    height: 40px;
 }
 
 .footer {
     background-color: burlywood;
+    height: 10vh;
 }
 
-.red{
+.box {
+    border: 1px solid black;
+}
+
+.red {
     background-color: red;
     width: 2em;
     height: 2em;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
-.yellow{
+.yellow {
     background-color: yellow;
     width: 2em;
     height: 2em;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
-.green{
+.green {
     background-color: green;
     width: 2em;
     height: 2em;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
-.blue{
+.blue {
     background-color: blue;
     width: 2em;
     height: 2em;
+    /* border: 1px solid black; */
+}
+
+.palletteBox {
     border: 1px solid black;
 }
