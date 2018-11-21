@@ -27,10 +27,6 @@
     height: 10vh;
 }
 
-.box {
-    border: 1px solid black;
-}
-
 .red {
     background-color: red;
     width: 2em;

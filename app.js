@@ -1,7 +1,16 @@
-document.addEventListener("DOMContentLoaded", function(){
-    var canvasElement = document.getElementsById("canvas")   
-    canvasElement.addEventListener("click", function(butts){
-        console.log(canvasElement)
+document.addEventListener("DOMContentLoaded", function() {
+    var pixel1 = document.getElementById("1")
+    var red = document.getElementById("red")
+    let color = ""
+    red.addEventListener("click", function(){
+        color = "red"
+    })
+    pixel1.addEventListener("click", function(){
+        pixel1.classList.toggle(color)
+        pixel1.classList.toggle("pixel")
+        console.log(pixel1)
+
+    })
 })
 
 
@@ -10,9 +19,3 @@ document.addEventListener("DOMContentLoaded", function(){
 
 
 
-
-    // var flashlight = document.getElementById("flashlight")
-    // flashlight.addEventListener("click", function(){
-    //     flashlight.classList.toggle('on')
-    //     flashlight.classList.toggle('off')
-    // })
