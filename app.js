@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function() {
     var pixel16 = document.getElementById("16")
     var red = document.getElementById("red")
     var yellow = document.getElementById("yellow")
-    var green = document.getElementById("green")
+    var orchid = document.getElementById("orchid")
     var blue = document.getElementById("blue")
     let color = "red"
     red.addEventListener("click", function(){
@@ -26,8 +26,8 @@ document.addEventListener("DOMContentLoaded", function() {
     yellow.addEventListener("click", function(){
         color = "yellow"
     })
-    green.addEventListener("click", function(){
-        color = "green"
+    orchid.addEventListener("click", function(){
+        color = "orchid"
     })
     blue.addEventListener("click", function(){
         color = "blue"
@@ -37,64 +37,64 @@ document.addEventListener("DOMContentLoaded", function() {
         pixel1.classList.toggle("pixel")
     })
     pixel2.addEventListener("click", function(){
-        pixel1.classList.toggle(color)
-        pixel1.classList.toggle("pixel")
+        pixel2.classList.toggle(color)
+        pixel2.classList.toggle("pixel")
     })
     pixel3.addEventListener("click", function(){
-        pixel1.classList.toggle(color)
-        pixel1.classList.toggle("pixel")
+        pixel3.classList.toggle(color)
+        pixel3.classList.toggle("pixel")
     })
     pixel4.addEventListener("click", function(){
-        pixel1.classList.toggle(color)
-        pixel1.classList.toggle("pixel")
+        pixel4.classList.toggle(color)
+        pixel4.classList.toggle("pixel")
     })
     pixel5.addEventListener("click", function(){
-        pixel1.classList.toggle(color)
-        pixel1.classList.toggle("pixel")
+        pixel5.classList.toggle(color)
+        pixel5.classList.toggle("pixel")
     })
     pixel6.addEventListener("click", function(){
-        pixel1.classList.toggle(color)
-        pixel1.classList.toggle("pixel")
+        pixel6.classList.toggle(color)
+        pixel6.classList.toggle("pixel")
     })
     pixel7.addEventListener("click", function(){
-        pixel1.classList.toggle(color)
-        pixel1.classList.toggle("pixel")
+        pixel7.classList.toggle(color)
+        pixel7.classList.toggle("pixel")
     })
     pixel8.addEventListener("click", function(){
-        pixel1.classList.toggle(color)
-        pixel1.classList.toggle("pixel")
+        pixel8.classList.toggle(color)
+        pixel8.classList.toggle("pixel")
     })
     pixel9.addEventListener("click", function(){
-        pixel1.classList.toggle(color)
-        pixel1.classList.toggle("pixel")
+        pixel9.classList.toggle(color)
+        pixel9.classList.toggle("pixel")
     })
     pixel10.addEventListener("click", function(){
-        pixel1.classList.toggle(color)
-        pixel1.classList.toggle("pixel")
+        pixel10.classList.toggle(color)
+        pixel10.classList.toggle("pixel")
     })
     pixel11.addEventListener("click", function(){
-        pixel1.classList.toggle(color)
-        pixel1.classList.toggle("pixel")
+        pixel11.classList.toggle(color)
+        pixel11.classList.toggle("pixel")
     })
     pixel12.addEventListener("click", function(){
-        pixel1.classList.toggle(color)
-        pixel1.classList.toggle("pixel")
+        pixel12.classList.toggle(color)
+        pixel12.classList.toggle("pixel")
     })
     pixel13.addEventListener("click", function(){
-        pixel1.classList.toggle(color)
-        pixel1.classList.toggle("pixel")
+        pixel13.classList.toggle(color)
+        pixel13.classList.toggle("pixel")
     })
     pixel14.addEventListener("click", function(){
-        pixel1.classList.toggle(color)
-        pixel1.classList.toggle("pixel")
+        pixel14.classList.toggle(color)
+        pixel14.classList.toggle("pixel")
     })
     pixel15.addEventListener("click", function(){
-        pixel1.classList.toggle(color)
-        pixel1.classList.toggle("pixel")
+        pixel15.classList.toggle(color)
+        pixel15.classList.toggle("pixel")
     })
     pixel16.addEventListener("click", function(){
-        pixel1.classList.toggle(color)
-        pixel1.classList.toggle("pixel")
+        pixel16.classList.toggle(color)
+        pixel16.classList.toggle("pixel")
     })
 })
 
