@@ -1,65 +1,89 @@
+html, body{
+  background-image: linear-gradient(to bottom right, #90D7FF, #C9F9FF);
+  margin:0;
+  width: 100%;
+  height: 100%;
+}
+
 .container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.header {
-    background-color: aqua;
-    height: 10vh;
+  margin: auto;
+  overflow: hidden;
 }
 
-#canvas{
-    border: 5px solid black;
-    display: flex;
-    flex-wrap: wrap;
-    width: 404px;
-    max-height: 404px;
+.header{
+  float: left;
+  background-color: #FF69B4;
+  max-height: 20%;
+  margin-bottom:1em;
+  padding: 0 1em;
+  border-bottom: #90D7FF 10px solid
 }
 
-.pixel {
-    border-bottom: 1px solid black;
-    border-right: 1px solid black;
-    background-color: white;
-    height: 100px;
-    width: 100px;
+.header > h1{
+  float: left;
+  font-family: 'Press Start 2P',
+  cursive;
+  font-size: 2em;
+  color: #5DFDCB;
+  width: 30%;
 }
 
-.footer {
-    display: flex;
-    background-color: burlywood;
-    height: 10vh;
+.selectors { 
+  float: right;
+  list-style: none;
+  padding:1em;
 }
 
-.red {
-    border-bottom: 1px solid black;
-    border-right: 1px solid black;
-    background-color: red;
-    height: 100px;
-    width: 100px;
-}
-.yellow {
-    border-bottom: 1px solid black;
-    border-right: 1px solid black;
-    background-color: yellow;
-    height: 100px;
-    width: 100px;
-}
-.orchid {
-    border-bottom: 1px solid black;
-    border-right: 1px solid black;
-    background-color: orchid;
-    height: 100px;
-    width: 100px;
-}
-.blue {
-    border-bottom: 1px solid black;
-    border-right: 1px solid black;
-    background-color: blue;
-    height: 100px;
-    width: 100px;
+.selectors > li{
+  display: inline;
+  padding: 0 10px 0 10px;
+  margin: 0;
 }
 
-.palletteBox{
-    height: 100%;
-    width: 40px;
+table, tr, td {
+  border: silver 1px dotted;
+}
+
+.canvas {
+  background-color: white;
+  margin: auto;
+  margin-bottom: 2em;
+}
+
+table {
+  border: darkgrey 2px solid;
+  border-collapse: collapse;
+  box-shadow: 0px 10px 18px darkslategrey;
+  margin-bottom: 1em;
+}
+
+tr {
+  height: 20px;
+}
+
+td {
+  min-width: 20px;
+  box-sizing: border-box;
+}
+input{
+  display: block;
+}
+.footer{
+  min-height: 15%;
+  background-color: #FAF3DD
+}
+.color-picker{
+  float: left;
+  margin: 1em;
+}
+
+.color-display{
+  float: right;
+  border: 1px solid black;
+  height: 7em;
+  width: 25%;
+  margin: 1em;
+  background: #000000;
+  transition: background 100ms;
+
 }
